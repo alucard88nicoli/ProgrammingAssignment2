@@ -38,6 +38,8 @@ cacheSolve <- function(x, ...) {
     return(mxinv)
   }
   data <- x$get()
+   
+   ## Calculate the inverse using Solve
   mxinv <- solve(data)
   
   x$setslv(mxinv)
