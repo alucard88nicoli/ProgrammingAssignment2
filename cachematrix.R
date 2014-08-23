@@ -1,3 +1,5 @@
+## ProgrammingAssigment2 - Datascience Coursera - Luca Nicoli
+
 ## These two functions allow us to cache to result of a function, in this particular case, the function solve(), in 
 ## order to save our system from lengthy calculations. 
 ## Solving a matrix will require indeed an high computing power, especially for larger ones: 
