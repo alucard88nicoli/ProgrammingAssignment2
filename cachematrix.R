@@ -1,5 +1,5 @@
 ## ProgrammingAssigment2 - Datascience Coursera - Luca Nicoli
-
+##
 ## These two functions allow us to cache to result of a function, in this particular case, the function solve(), in 
 ## order to save our system from lengthy calculations. 
 ## Solving a matrix will require indeed an high computing power, especially for larger ones: 
@@ -9,7 +9,6 @@
 
 ## MakeCacheMatrix - This function stores a matrix in the x argument. 
 ## The matrix can be superposed to the empty x with the function set(). The function get() prints the matrix.
-
 
 makeCacheMatrix <- function(x = matrix()) {
   mxinv <- matrix(, nrow(x), ncol(x))
@@ -51,4 +50,4 @@ cacheSolve <- function(x, ...) {
   
 }
 
-## latest version
+## latest version - end
